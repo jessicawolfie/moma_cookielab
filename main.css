@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 16px 16px;
+    background-color: #F7B0CF;
+}
+
+.brand-logo {
+    height: 80px;
+    width: auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+header li {
+    display: inline;
+    font-family:"Montserrat";
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #E44C3C;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.sabores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sabores sabores {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.sabores sabores {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section p {
+    color: #E44C3C;
+}
+
+.sabores sabores h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family:"Montserrat";
+}
+.sabores {
+    background-color: #FBEBEA;
+    color: #E44C3C;
+    padding: auto
+}
+
+.sabores sabores p {
+    font-family:"Montserrat";
+    font-size: 12px;
+}
+
+section h2,
+.section about  {
+    font-size: 30px;
+    font-family:"Montserrat";
+    color: #E44C3C;
+}
+
+#products {
+    background-color: #FBEBEA;
+}
+
+#about {
+    background-color: #FBEBEA;
+}
+
+#contact {
+    background-color: #FBEBEA;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family:"Montserrat";
+    color: #E44C3C
+}
+
+footer {
+    background-color: #F7B0CF;
+    color: #E44C3C;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    font-family:"Montserrat";
+}
