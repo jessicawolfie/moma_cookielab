@@ -47,6 +47,10 @@ header li a {
     width: 30%;
 }
 
+.sabores img {
+    border-radius: 20px;
+}
+
 section {
     padding: 16px 0;
 }
