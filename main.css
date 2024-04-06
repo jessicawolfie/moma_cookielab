@@ -112,13 +112,17 @@ form {
 
 form label,
 form input,
-form textarea,
 form button {
     display: block;
     width: 100%;
     margin-bottom: 10px;
     font-family:"Montserrat";
     color: #E44C3C
+}
+
+form textarea {
+    height: 80px;
+    width: 100%;
 }
 
 footer {
